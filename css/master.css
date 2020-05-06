@@ -167,6 +167,9 @@ p{
 .accountname{
   font-size: 1.3rem;
 }
+#download{
+  padding: 5% 15%;
+}
 
 .download-h3{
   font-size: 1.3rem;
