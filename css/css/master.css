@@ -1,0 +1,191 @@
+/* GENERAL */
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+p{
+  color: #888888;
+}
+
+/* adds a margin between any two buttons */
+.button-margin{
+  margin-right:10px;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* adds a white bg color to any section */
+.white-bg{
+  background-color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  padding-left: 0;
+}
+
+.nv-size {
+  margin-top: 13px;
+}
+
+.navbar-brand {
+  font-family: 'Lexend Giga', sans-serif;
+  font-size: 2rem;
+}
+
+
+
+/* TITLE SECTION */
+
+#title {
+  text-align: left;
+  background-color: #639a67;
+}
+
+#title .container-fluid{
+    padding: 3% 7% 7%;
+}
+
+.h1-title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.7;
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* FEATURES */
+#features {
+  position: relative;
+  line-height: 2.4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+  color: #d8ebb5;
+}
+
+.icon:hover {
+  color: #2b580c;
+}
+
+/* TESTOMONIALS */
+
+#testimonials {
+  background-color: #d8ebb5;
+}
+
+.h1-testimonial {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.testimonial-img {
+  width: 16%;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  height: 500px;
+  overflow: hidden;
+  width: 100%;
+}
+/* ACCOUNTS */
+#accounts{
+  padding: 100px;
+}
+
+.account-card{
+  padding: 3% 2%;
+}
+
+/* CTA */
+
+#download{
+  background-color: #9dc6a7;
+  line-height: 5;
+}
+
+.download-h3{
+  font-size: 3rem;
+}
+
+
+#footer{
+  line-height: 1.8;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.copyright{
+  font-size: 1.5rem;
+}
+
+/*RESPONSIVENESS */
+
+@media (max-width: 1000px) {
+/* TABLET */
+  .title-img{
+    width: 40%;
+    position: static;
+    transform: rotate(0);
+    margin-top: 30px;
+  }
+
+  .h1-title{
+    margin-bottom: 30px;
+  }
+
+}
+
+/* PHONE */
+
+@media (max-width:415px){
+.h1-title{
+  font-size: 2rem;
+}
+.testimonial-heading{
+  font-size: 1.5rem;
+}
+.carousel-item{
+  height: 400px;
+}
+.account-personality{
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+
+#download .container-fluid{
+  padding: 5% 15%;
+}
+
+.accountprice{
+  font-size: 1.3rem;
+}
+
+.download-h3{
+  font-size: 1.2rem;
+}
+.download-h2{
+  font-size: 1rem;
+}
+}
